@@ -8,5 +8,6 @@ int main(int argc, char const *argv[])
     std::cin >> name;
     std::cout << "Hello " << name << std::endl;
     // Hello
+    //hello jakob
     return 0;
 }
