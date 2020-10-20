@@ -9,5 +9,6 @@ int main(int argc, char const *argv[])
     std::cout << "Hello " << name << std::endl;
     std::cout << "my name is Karen" << std::endl;
 
+    // Hello
     return 0;
 }
