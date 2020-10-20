@@ -8,6 +8,7 @@ int main(int argc, char const *argv[])
     std::cin >> name;
     std::cout << "Hello " << name << std::endl;
     std::cout << "my name is Karen" << std::endl;
+    //dette er en kommentar for at vise en ændring.
 
     return 0;
 }
