@@ -7,7 +7,6 @@ int main(int argc, char const *argv[])
     std::cout << "What is your name? ";
     std::cin >> name;
     std::cout << "Hello " << name << std::endl;
-    // Hello
-    // Goodbye
+
     return 0;
 }
