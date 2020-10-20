@@ -10,5 +10,9 @@ int main(int argc, char const *argv[])
     std::cout << "my name is Karen" << std::endl;
     //dette er en kommentar for at vise en ændring.
 
+    //Hello alexander
+    //hello jakob
+    //hello victor
+    // Hello
     return 0;
 }
