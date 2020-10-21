@@ -1,17 +1,21 @@
 #include <iostream>
+using namespace std;
 
-int main(int argc, char const *argv[])
-{
-    int input;
-    std::cout << "Type a number: ";
-    std::cin >> input;
-    factorial(input);
+int factorial(int n);
 
+int main(){
+    int n;
+
+    cout << "Enter a positive integer: ";
+    cin >> n;
+
+    cout << "The factorial for " << n << factorial(n);
     return 0;
 }
 
-int factorial(int n)
-    {
-        if(n==1) return 1;
+int factorial(int n) {
+    if(n>1) 
         return n*factorial(n-1);
-    }
+    else
+        return 1;
+}
