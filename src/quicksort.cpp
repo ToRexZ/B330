@@ -1,3 +1,4 @@
+//quicksort metode
 void quicksort(int iList[], int first, int last){
     
     int pivot, i, j, tmp;
