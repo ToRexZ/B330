@@ -134,6 +134,8 @@ include_directories(
 add_executable(hello src/hello.cpp)
 add_executable(makeBox src/make_box.cpp)
 add_executable(vacuum src/vacuum.cpp)
+add_executable(classes src/classes.cpp)
+add_executable(box src/Box.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -154,6 +156,12 @@ target_link_libraries(makeBox
 )
 target_link_libraries(vacuum
 ${catkin_LIBRARIES}
+)
+target_link_libraries(classes
+${catkin_LIBRARIES}
+)
+target_link_libraries(box
+${catkin_libraries}
 )
 
 #############
